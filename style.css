@@ -14,6 +14,7 @@ code,pre{
     border-style: none;
     color: #8080ff;
     font-family: monospace;
+    font-weight: bold;
 }
 pre{
     border-color: #8080ff;
