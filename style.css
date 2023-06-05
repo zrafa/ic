@@ -23,3 +23,15 @@ pre{
     border-width: 0.25em;
     padding: 0.5em;
 }
+nav{
+    background-color: #8080ff;
+    font-size: 75%;
+    color: #ffffff;
+    padding: 0 0.25em 0 0.25em; 
+}
+nav>a:link{
+    color: #ffffff
+}
+nav>a:visited{
+    color: #ffffff
+}
