@@ -28,6 +28,10 @@ nav{
     font-size: 75%;
     color: #ffffff;
     padding: 0 0.25em 0 0.25em; 
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
 }
 nav>a:link{
     color: #ffffff
