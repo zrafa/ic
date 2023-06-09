@@ -33,8 +33,11 @@ nav{
     top: 0px;
 }
 nav>a:link{
-    color: #ffffff
+    color: #ffffff;
 }
 nav>a:visited{
-    color: #ffffff
+    color: #ffffff;
+}
+a:focus {
+    background-color: #cccc44;
 }
