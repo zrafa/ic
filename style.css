@@ -23,3 +23,6 @@ pre{
     border-width: 0.25em;
     padding: 0.5em;
 }
+a:focus{
+    background-color: #cccc44;
+}
