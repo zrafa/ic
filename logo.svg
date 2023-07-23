@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="84.490112mm"
+   height="87.125313mm"
+   viewBox="0 0 84.490112 87.125313"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="48.518421"
+       y="74.85038"
+       width="399.2547"
+       height="396.71002"
+       id="rect419" />
+    <rect
+       x="34.625927"
+       y="70.588829"
+       width="75.212708"
+       height="70.569946"
+       id="rect413" />
+  </defs>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-7.676953e-7,-5.0341488)"
+     id="text411"
+     style="font-size:13.3333px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;white-space:pre;shape-inside:url(#rect413)" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-12.836942,-20.332684)"
+     id="text417"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;white-space:pre;shape-inside:url(#rect419);fill:#ddddff;fill-opacity:1"><tspan
+       x="48.517578"
+       y="86.981248"
+       id="tspan1053">$ cat logo.txt
+</tspan><tspan
+       x="48.517578"
+       y="103.64787"
+       id="tspan1055">                ######  ###
+</tspan><tspan
+       x="48.517578"
+       y="120.3145"
+       id="tspan1057">            ##########  ######
+</tspan><tspan
+       x="48.517578"
+       y="136.98113"
+       id="tspan1059">          ############  #####   #
+</tspan><tspan
+       x="48.517578"
+       y="153.64775"
+       id="tspan1061">        ########          ##  #####
+</tspan><tspan
+       x="48.517578"
+       y="170.31438"
+       id="tspan1063">       ######   ######        ######
+</tspan><tspan
+       x="48.517578"
+       y="186.981"
+       id="tspan1065">       #####  ##########       ##
+</tspan><tspan
+       x="48.517578"
+       y="203.64763"
+       id="tspan1067">      ###### ############       #####
+</tspan><tspan
+       x="48.517578"
+       y="220.31426"
+       id="tspan1069">      #####  ############       #####
+</tspan><tspan
+       x="48.517578"
+       y="236.98088"
+       id="tspan1071">      ######  ##########        #####
+</tspan><tspan
+       x="48.517578"
+       y="253.64751"
+       id="tspan1073">       #####    ######
+</tspan><tspan
+       x="48.517578"
+       y="270.31413"
+       id="tspan1075">       #######               ######
+</tspan><tspan
+       x="48.517578"
+       y="286.98076"
+       id="tspan1077">         #######             ######
+</tspan><tspan
+       x="48.517578"
+       y="303.64739"
+       id="tspan1079">          ###########  #####
+</tspan><tspan
+       x="48.517578"
+       y="320.31401"
+       id="tspan1081">             ########  #######
+</tspan><tspan
+       x="48.517578"
+       y="336.98064"
+       id="tspan1083">                 ###   #####
+</tspan><tspan
+       x="48.517578"
+       y="353.64726"
+       id="tspan1085">
+</tspan><tspan
+       x="48.517578"
+       y="370.31389"
+       id="tspan1087">            Facultad de informática
+</tspan><tspan
+       x="48.517578"
+       y="386.98052"
+       id="tspan1089">        Universidad Nacional del Comahue
+</tspan><tspan
+       x="48.517578"
+       y="403.64714"
+       id="tspan1091">$ _
+</tspan></text>
+</svg>
