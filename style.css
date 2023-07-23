@@ -22,19 +22,15 @@ pre{
     border-width: 0.25em;
     padding: 0.5em;
 }
-.code{
+img.code{
     background-color: #000000;
     border-color: #8080ff;
-    border-radius: 0.25em;
     border-radius: 1em;
-    border-style: none;
     border-style: outset;
     border-width: 0.25em;
     color: #ddddff;
-    font-family: monospace;
-    font-weight: bold;
     padding: 0.5em;
-    width:100%;
+    width: 100%;
 }
 nav{
     background-color: #8080ff;
