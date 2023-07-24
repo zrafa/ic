@@ -1,418 +1,429 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
 <head>
-  <meta charset="utf-8" />
-  <title>Introducción a la Computación</title>
-  <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8" />
+    <title>Introducción a la Computación</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <div class="navbar-expand-sm" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="./index.html#horarios" class="nav-link">Horarios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html#fechas" class="nav-link">Fechas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html#cronograma" class="nav-link">Cronogramas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./faq.html" class="nav-link">Preguntas Frecuentes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-<header>
-<h1>Introducción a la Computación 2023</h1>
+    <h1>Introducción a la Computación 2023</h1>
 
-<img class="code" src="./logoFAI.svg" alt="">
+    <img class="code" src="./logoFAI.svg" alt="">
 
-</header>
-
-<main>
-<nav>
-<ul>
-    <li> <a href="./index.html#novedades">Novedades</a>
-    <li> <a href="./index.html#horarios">Horarios</a>
-    <li> <a href="./index.html#fechas">Fechas</a>
-    <li> <a href="./index.html#cronograma">Cronograma</a>
-    <li> <a href="./faq.html">Preguntas Frecuentes</a>
-</ul>
-</nav>
-
-<h2 id="novedades">Novedades:</h2>
-
-<ul>
-    <li><strong>Nuevos horarios de práctica:</strong>
-    <ul>
-        <li><em>Módulo I</em>: Martes <strong>12:00</strong> a
-            <strong>13:30</strong>, Laboratorios <strong>1</strong> y
-            <strong>2</strong>.
-        <li><em>Módulo II</em>: Martes <strong>13:30</strong> a
-            <strong>15:00</strong>, Laboratorios <strong>1</strong> y
-            <strong>2</strong>.
-        <li><em>Módulo III</em>: Viernes <strong>13:00</strong> a
-            <strong>14:30</strong>, Laboratorios <strong>1</strong>,
-            <strong>2</strong> y <strong>3</strong>.
-        <li><em>Módulo IV</em>: Viernes <strong>14:30</strong> a
-            <strong>16:00</strong>, Laboratorios <strong>1</strong>,
-            <strong>2</strong> y <strong>3</strong>.
-    </ul>
-    <li> Para conectarse remotamente a los laboratorios, ejecutar el siguiente
-        comando:
-        <code>xfreerdp +glyph-cache /u:"" /v:aularemota.fi.uncoma.edu.ar:1199</code>
-    <li>Link al grupo de telegram (2023) <a href="https://t.me/icfai2023">https://t.me/icfai2023</a>
-
-</ul>
-
-<hr>
-
-<h2>Docentes:</h2>
-
-<ul>
-<li>Marina Moran
-(<a href="mailto:marina@fi.uncoma.edu.ar">marina@fi.uncoma.edu.ar</a>)
-<li>Rodrigo S. Cañibano
-(<a href="mailto:rcanibano@fi.uncoma.edu.ar">rcanibano@fi.uncoma.edu.ar</a>)
-<li>Lucas Cavaliere
-(<a href="mailto:lucas.cavaliere@fi.uncoma.edu.ar">lucas.cavaliere@fi.uncoma.edu.ar</a>)
-<li>Santino Castagno
-(<a href="mailto:stefano.castagno@fi.uncoma.edu.ar">stefano.castagno@fi.uncoma.edu.ar</a>)
-<li>Juan Mestica
-(<a href="mailto:juan.mestica@est.fi.uncoma.edu.ar">juan.mestica@est.fi.uncoma.edu.ar</a>)
-<li>Aldana Vega
-(<a href="mailto:aldana.vega@est.fi.uncoma.edu.ar">aldana.vega@est.fi.uncoma.edu.ar</a>)
-</ul>
-
-<p>Link al curso de <em>PEDCO</em>:
-<a href="https://pedco.uncoma.edu.ar/course/view.php?id=1553">https://pedco.uncoma.edu.ar/course/view.php?id=1553</a></p>
-
-<hr>
-
-
-
-<h2>Preguntas Frecuentes</h2>
-<a href="faq.html">FAQ</a>
-
-<hr>
-
-<h2 id="horarios">Horarios</h2>
-
-<ul>
-<li>Teoría:
+    <h2 id="novedades">Novedades:</h2>
 
     <ul>
-        <li><em>Clase Presencial</em>: Viernes <strong>10:00</strong> a
-            <strong>12:00</strong> aula <strong>13 (pagoda)</strong>.
-        <li><em>Clase virtual <a href="msg/claseVirtualAuxiliar.html">auxiliar</a></em>:
-            Jueves <strong>13:00</strong> a <strong>15:00</strong>.
-            Transmisión en vivo:
-            <a href="https://www.youtube.com/@IC-FAI-Comahue">
-                https://www.youtube.com/@IC-FAI-Comahue</a>
+        <li><strong>Nuevos horarios de práctica:</strong>
+            <ul>
+                <li><em>Módulo I</em>: Martes <strong>12:00</strong> a
+                    <strong>13:30</strong>, Laboratorios <strong>1</strong> y
+                    <strong>2</strong>.
+                <li><em>Módulo II</em>: Martes <strong>13:30</strong> a
+                    <strong>15:00</strong>, Laboratorios <strong>1</strong> y
+                    <strong>2</strong>.
+                <li><em>Módulo III</em>: Viernes <strong>13:00</strong> a
+                    <strong>14:30</strong>, Laboratorios <strong>1</strong>,
+                    <strong>2</strong> y <strong>3</strong>.
+                <li><em>Módulo IV</em>: Viernes <strong>14:30</strong> a
+                    <strong>16:00</strong>, Laboratorios <strong>1</strong>,
+                    <strong>2</strong> y <strong>3</strong>.
+            </ul>
+        <li> Para conectarse remotamente a los laboratorios, ejecutar el siguiente
+            comando:
+            <code>xfreerdp +glyph-cache /u:"" /v:aularemota.fi.uncoma.edu.ar:1199</code>
+        <li>Link al grupo de telegram (2023) <a href="https://t.me/icfai2023">https://t.me/icfai2023</a>
+
     </ul>
 
-<li>Práctica:
-    <ul>
-        <li><em>Módulo I</em>: Martes <strong>12:00</strong> a
-            <strong>13:30</strong>, Laboratorios <strong>1</strong> y
-            <strong>2</strong>.
-        <li><em>Módulo II</em>: Martes <strong>13:30</strong> a
-            <strong>15:00</strong>, Laboratorios <strong>1</strong> y
-            <strong>2</strong>.
-        <li><em>Módulo III</em>: Viernes <strong>13:00</strong> a
-            <strong>14:30</strong>, Laboratorios <strong>1</strong>,
-            <strong>2</strong> y <strong>3</strong>.
-        <li><em>Módulo IV</em>: Viernes <strong>14:30</strong> a
-            <strong>17:00</strong>, Laboratorios <strong>1</strong>,
-            <strong>2</strong> y <strong>3</strong>.
-    </ul>
-    <s>
-    <ul>
-        <li><em>Módulo I</em>: Martes <strong>12:00</strong> a
-            <strong>14:00</strong> aula <strong>13 (pagoda)</strong>.
-        <li><em>Módulo II</em>: Martes <strong>15:00</strong> a
-            <strong>17:00</strong> aulas <strong>i1</strong> y
-            <strong>i7</strong>.
-    </ul>
-    </s>
-</ul>
+    <hr>
 
-<h2 id="fechas">Fecha de los exámenes</h2>
+    <h2>Docentes:</h2>
 
-<ul>
-    <li>Primer parcial: Sábado 06/05, 10:00hs en las aulas 13 y 25 de la
-        facultad de humanidades.
     <ul>
-        <li>Recuperatorio: Sábado 13/05, 10:00hs en las aulas 13 y 25 de la
+        <li>Marina Moran
+            (<a href="mailto:marina@fi.uncoma.edu.ar">marina@fi.uncoma.edu.ar</a>)
+        <li>Rodrigo S. Cañibano
+            (<a href="mailto:rcanibano@fi.uncoma.edu.ar">rcanibano@fi.uncoma.edu.ar</a>)
+        <li>Lucas Cavaliere
+            (<a href="mailto:lucas.cavaliere@fi.uncoma.edu.ar">lucas.cavaliere@fi.uncoma.edu.ar</a>)
+        <li>Santino Castagno
+            (<a href="mailto:stefano.castagno@fi.uncoma.edu.ar">stefano.castagno@fi.uncoma.edu.ar</a>)
+        <li>Juan Mestica
+            (<a href="mailto:juan.mestica@est.fi.uncoma.edu.ar">juan.mestica@est.fi.uncoma.edu.ar</a>)
+        <li>Aldana Vega
+            (<a href="mailto:aldana.vega@est.fi.uncoma.edu.ar">aldana.vega@est.fi.uncoma.edu.ar</a>)
+    </ul>
+
+    <p>Link al curso de <em>PEDCO</em>:
+        <a
+            href="https://pedco.uncoma.edu.ar/course/view.php?id=1553">https://pedco.uncoma.edu.ar/course/view.php?id=1553</a>
+    </p>
+
+    <hr>
+
+
+
+    <h2>Preguntas Frecuentes</h2>
+    <a href="faq.html">FAQ</a>
+
+    <hr>
+
+    <h2 id="horarios">Horarios</h2>
+
+    <ul>
+        <li>Teoría:
+
+            <ul>
+                <li><em>Clase Presencial</em>: Viernes <strong>10:00</strong> a
+                    <strong>12:00</strong> aula <strong>13 (pagoda)</strong>.
+                <li><em>Clase virtual <a href="msg/claseVirtualAuxiliar.html">auxiliar</a></em>:
+                    Jueves <strong>13:00</strong> a <strong>15:00</strong>.
+                    Transmisión en vivo:
+                    <a href="https://www.youtube.com/@IC-FAI-Comahue">
+                        https://www.youtube.com/@IC-FAI-Comahue</a>
+            </ul>
+
+        <li>Práctica:
+            <ul>
+                <li><em>Módulo I</em>: Martes <strong>12:00</strong> a
+                    <strong>13:30</strong>, Laboratorios <strong>1</strong> y
+                    <strong>2</strong>.
+                <li><em>Módulo II</em>: Martes <strong>13:30</strong> a
+                    <strong>15:00</strong>, Laboratorios <strong>1</strong> y
+                    <strong>2</strong>.
+                <li><em>Módulo III</em>: Viernes <strong>13:00</strong> a
+                    <strong>14:30</strong>, Laboratorios <strong>1</strong>,
+                    <strong>2</strong> y <strong>3</strong>.
+                <li><em>Módulo IV</em>: Viernes <strong>14:30</strong> a
+                    <strong>17:00</strong>, Laboratorios <strong>1</strong>,
+                    <strong>2</strong> y <strong>3</strong>.
+            </ul>
+            <s>
+                <ul>
+                    <li><em>Módulo I</em>: Martes <strong>12:00</strong> a
+                        <strong>14:00</strong> aula <strong>13 (pagoda)</strong>.
+                    <li><em>Módulo II</em>: Martes <strong>15:00</strong> a
+                        <strong>17:00</strong> aulas <strong>i1</strong> y
+                        <strong>i7</strong>.
+                </ul>
+            </s>
+    </ul>
+
+    <h2 id="fechas">Fecha de los exámenes</h2>
+
+    <ul>
+        <li>Primer parcial: Sábado 06/05, 10:00hs en las aulas 13 y 25 de la
             facultad de humanidades.
-    </ul>
-    <li>Segundo parcial: <strong>Viernes 23/06</strong> en las aulas
-        <strong>i1</strong> e <strong>i7</strong>, de <strong>10:00hs</strong>
-        a <strong>12:00hs</strong>.
-    <ul>
-        <li>Recuperatorio: <strong>Viernes 30/06</strong>, en las aulas
-            <strong>i1</strong> e <strong>i7</strong> de
-            <strong>10:00hs</strong> a <strong>12:00hs</strong>.
-    </ul>
-</ul>
-<hr>
-
-<h2>Foros</h2>
-
-<ul>
-
-<li><a href="https://pedco.uncoma.edu.ar/mod/forum/view.php?id=144123">Foro
-de anuncios</a> donde anunciaremos las novedades de la materia.
-
-<li><a href="https://pedco.uncoma.edu.ar/mod/forum/view.php?id=144125">Foro
-de consultas generales</a> tanto para preguntas administrativas, como aquellas
-relacionadas con los trabajos prácticos.
-
-<li>Link al grupo de telegram (2023) <a href="https://t.me/icfai2023">https://t.me/icfai2023</a>
-
-</ul>
-
-<hr>
-
-<h2>Programa y apuntes de la materia</h2>
-
-<p>
-<a href="misc/ic-programa-2022.pdf">Programa de la Materia</a>
-</p>
-
-<h2 id="cronograma">Cronograma tentativo</h2>
-
-<em>Marzo:</em>
-
-<ul>
-<li>Clase 1 (Jueves 16, Viernes 17):
-    <ul>
-    <li>Introducción a la vida universitaria.
-    <li>Historia de la computación.
-</ul>
-
-<li>Práctica 1 (Martes 21):
-   <a href="./tps/TP-00.pdf">TP-00</a>
-
-<li>Clase 2 (Jueves 23, -):
-    <ul>
-    <li>Sistemas de numeración: :
-        <ul>
-        <li>Sistemas no posicionales y posicionales.
-        <li>Conversión entre sistemas de distintas bases.
-        </ul>
-    <li>
-        <a href="https://youtu.be/MKm583Z-77o">video</a>
-        - <a href="./filminas/02-sistemasNumeracion.pdf">02-sistemasNumeracion.pdf</a>
-    </ul>
-
-<li>Práctica 2 (Martes 27):
-   <a href="./tps/TP-01.pdf">TP-01</a>
-
-<li>Clase 3 (Jueves 30, Viernes 31):
-    <ul>
-    <li>Representación de la información:
-        <ul>
-        <li>Unidad mínima de información: el bit.
-        <li>Unidades de información.
-        </ul>
-    <li>
-        <a href="https://youtu.be/i8nSZjDfgF0">video</a>
-        - <a href="./filminas/03-elBit.pdf">03-elBit.pdf</a>
-    </ul>
-
-</ul>
-
-<em>Abril:</em>
-
-<ul>
-<li>Práctica 3 (Martes 4):
-   <a href="./tps/TP-02.pdf">TP-02</a>,
-   <a href="./tps/TP-02-Bis.pdf">TP-02-Bis</a>
-
-<li>Feriado (Jueves 6, Viernes 7).
-
-<li>Práctica 4 (Martes 11): <em>TP 02</em>
-
-<li>Clase 4 (Jueves 13, Viernes 14):
-    <ul>
-        <li>Representación de la información:
             <ul>
-            <li>Representación digital de datos:
-                <ul>
-                <li>Numéricos: números enteros (sin signo, signo-magnitud,
-                    complemento a 2). Operaciones de suma y resta.
-                </ul>
+                <li>Recuperatorio: Sábado 13/05, 10:00hs en las aulas 13 y 25 de la
+                    facultad de humanidades.
             </ul>
-    <li>
-        <a href="https://youtu.be/dbjEclN_tTs">video</a>
-        - <a href="https://egrosclaude.github.io/IC/Representaci%C3%B3nDigitalDeDatos.html">slides</a>
-    </ul>
-
-<li>Práctica 5 (Martes 17):
-   <a href="./tps/TP-03.pdf">TP-03</a>
-
-<li>Clase 5 (Jueves 20, Viernes 21):
-    <ul>
-        <li>Representación de la información:
+        <li>Segundo parcial: <strong>Viernes 23/06</strong> en las aulas
+            <strong>i1</strong> e <strong>i7</strong>, de <strong>10:00hs</strong>
+            a <strong>12:00hs</strong>.
             <ul>
-            <li>Representación digital de datos:
-                <ul>
-                <li>Numéricos: números reales (punto fijo y flotante
-                    IEEE-754).
-                </ul>
+                <li>Recuperatorio: <strong>Viernes 30/06</strong>, en las aulas
+                    <strong>i1</strong> e <strong>i7</strong> de
+                    <strong>10:00hs</strong> a <strong>12:00hs</strong>.
             </ul>
-    <li>
-        <a href="https://youtu.be/oVeqlvE1AGc">video</a>
-        - <a href="https://egrosclaude.github.io/IC/Representaci%C3%B3nDigitalDeDatos.html">slides</a>
+    </ul>
+    <hr>
+
+    <h2>Foros</h2>
+
+    <ul>
+
+        <li><a href="https://pedco.uncoma.edu.ar/mod/forum/view.php?id=144123">Foro
+                de anuncios</a> donde anunciaremos las novedades de la materia.
+
+        <li><a href="https://pedco.uncoma.edu.ar/mod/forum/view.php?id=144125">Foro
+                de consultas generales</a> tanto para preguntas administrativas, como aquellas
+            relacionadas con los trabajos prácticos.
+
+        <li>Link al grupo de telegram (2023) <a href="https://t.me/icfai2023">https://t.me/icfai2023</a>
+
     </ul>
 
-<li>Práctica 6 (Martes 24):
-   <a href="./tps/TP-04.pdf">TP-04</a>
+    <hr>
 
-<li>Clase 6 (Jueves 27, Viernes 28):
+    <h2>Programa y apuntes de la materia</h2>
+
+    <p>
+        <a href="misc/ic-programa-2022.pdf">Programa de la Materia</a>
+    </p>
+
+    <h2 id="cronograma">Cronograma tentativo</h2>
+
+    <em>Marzo:</em>
+
     <ul>
-        <li>Representación de la información:
+        <li>Clase 1 (Jueves 16, Viernes 17):
             <ul>
-            <li>Representación digital de datos:
-                <ul>
-                <li>Texto.
-                <li>Imagen.
-                <li>Compresión (sin y con pérdida).
-                </ul>
+                <li>Introducción a la vida universitaria.
+                <li>Historia de la computación.
             </ul>
-    <li>
-        <a href="https://youtu.be/2JYOztw2uzs">video</a>
-        - <a href="https://egrosclaude.github.io/IC/TextoYMultimedia.html">slides</a>
-    </ul>
 
-<li>Práctica 7 (Martes 24):
-   <a href="./tps/TP-05.pdf">TP-05</a>
+        <li>Práctica 1 (Martes 21):
+            <a href="./tps/TP-00.pdf">TP-00</a>
 
-</ul>
-
-<em>Mayo:</em>
-
-<ul>
-
-<li>Práctica 8 (Martes 2): Consulta.
-
-<li>Clase 7 (Jueves 3, Viernes 4):
-    <ul>
-    <li>Consulta para el primer examen parcial.
-        <ul>
-        <li><a href="https://youtu.be/MmVXv1tAC1c">video</a>
-        </ul>
-    </ul>
-
-<li><em>Primer examen parcial</em>: Sábado 06/05.
-
-<li>Práctica 9 (Martes 9): Consulta primer recuperatorio.
-
-<li>Clase 8 (Jueves 11, Viernes 12):
-    <ul>
-    <li>Organización y Arquitectura de computadoras:
-        <ul>
-        <li>Organización de una computadora simple:
+        <li>Clase 2 (Jueves 23, -):
             <ul>
-            <li>Componentes (procesador, memoria, dispositivos de entrada y
-                salida) e interconexión (buses) de la arquitectura von
-                Neumann.
-            <li>Instrucciones y ejecución de instrucciones.
-            <li>Caso de uso: Modelo Computacional Binario Elemental (MCBE).
+                <li>Sistemas de numeración: :
+                    <ul>
+                        <li>Sistemas no posicionales y posicionales.
+                        <li>Conversión entre sistemas de distintas bases.
+                    </ul>
+                <li>
+                    <a href="https://youtu.be/MKm583Z-77o">video</a>
+                    - <a href="./filminas/02-sistemasNumeracion.pdf">02-sistemasNumeracion.pdf</a>
             </ul>
-        </ul>
-    <li>
-        <a href="https://youtu.be/roh4goWJ6Uo">video</a>
-        - <a href="./filminas/08-orgYarq.pdf">08-orgYarq.pdf</a>
-    </ul>
 
-<li><em>Recuperatorio del primer examen parcial</em>: Sábado 13/05.
+        <li>Práctica 2 (Martes 27):
+            <a href="./tps/TP-01.pdf">TP-01</a>
 
-<li>Práctica 10 (Martes 16):
-   <a href="./tps/TP-06.pdf">TP-06</a>
-
-<li>Clase 9 (Jueves 19, Viernes 20):
-    <ul>
-    <li>El software:
-        <ul>
-        <li>Lenguajes de bajo nivel (lenguaje ensamblador). Caso de uso: MCBE.
-        <li>Lenguajes de alto nivel. Traductores: compiladores e intérpretes.
-            Caso de uso: compilador gcc, intérprete navegador web.
-        <li>Introducción a los Sistemas Operativos:
+        <li>Clase 3 (Jueves 30, Viernes 31):
             <ul>
-            <li>Definición y clasificación.
-            <li>Núcleo (kernel), llamadas al sistema, administración de
-            procesos, administración de memoria, sistema de archivos,
-            protección.
+                <li>Representación de la información:
+                    <ul>
+                        <li>Unidad mínima de información: el bit.
+                        <li>Unidades de información.
+                    </ul>
+                <li>
+                    <a href="https://youtu.be/i8nSZjDfgF0">video</a>
+                    - <a href="./filminas/03-elBit.pdf">03-elBit.pdf</a>
             </ul>
-        </ul>
-    <li>
-        <a href="https://youtu.be/dhMKqs1gZGs">video</a>
-        - slides:
-            <a href="https://egrosclaude.github.io/IC/Software.html">1</a>,
-            <a href="https://egrosclaude.github.io/IC/SistemasOperativos.html">2</a>
+
     </ul>
 
-<li>Práctica 11 (Martes 23):
-   <a href="./tps/TP-07.pdf">TP-07</a>
+    <em>Abril:</em>
 
-</ul>
-
-<em>Junio:</em>
-
-<ul>
-<li>Clase 10 (Jueves 1, Viernes 2):
     <ul>
-    <li>El software:
-        <li>Introducción a los Sistemas Operativos:
+        <li>Práctica 3 (Martes 4):
+            <a href="./tps/TP-02.pdf">TP-02</a>,
+            <a href="./tps/TP-02-Bis.pdf">TP-02-Bis</a>
+
+        <li>Feriado (Jueves 6, Viernes 7).
+
+        <li>Práctica 4 (Martes 11): <em>TP 02</em>
+
+        <li>Clase 4 (Jueves 13, Viernes 14):
             <ul>
-            <li>Núcleo (kernel), llamadas al sistema, administración de
-            procesos, administración de memoria, sistema de archivos,
-            protección.
-            <li>Caso de uso: introducción al sistema operativo GNU/Linux.
+                <li>Representación de la información:
+                    <ul>
+                        <li>Representación digital de datos:
+                            <ul>
+                                <li>Numéricos: números enteros (sin signo, signo-magnitud,
+                                    complemento a 2). Operaciones de suma y resta.
+                            </ul>
+                    </ul>
+                <li>
+                    <a href="https://youtu.be/dbjEclN_tTs">video</a>
+                    - <a href="https://egrosclaude.github.io/IC/Representaci%C3%B3nDigitalDeDatos.html">slides</a>
             </ul>
-    <li>
-        <a href="https://youtu.be/D2JkCgDqTw8">video</a>
-        - <a href="https://egrosclaude.github.io/IC/SistemasOperativos.html">slides</a>
+
+        <li>Práctica 5 (Martes 17):
+            <a href="./tps/TP-03.pdf">TP-03</a>
+
+        <li>Clase 5 (Jueves 20, Viernes 21):
+            <ul>
+                <li>Representación de la información:
+                    <ul>
+                        <li>Representación digital de datos:
+                            <ul>
+                                <li>Numéricos: números reales (punto fijo y flotante
+                                    IEEE-754).
+                            </ul>
+                    </ul>
+                <li>
+                    <a href="https://youtu.be/oVeqlvE1AGc">video</a>
+                    - <a href="https://egrosclaude.github.io/IC/Representaci%C3%B3nDigitalDeDatos.html">slides</a>
+            </ul>
+
+        <li>Práctica 6 (Martes 24):
+            <a href="./tps/TP-04.pdf">TP-04</a>
+
+        <li>Clase 6 (Jueves 27, Viernes 28):
+            <ul>
+                <li>Representación de la información:
+                    <ul>
+                        <li>Representación digital de datos:
+                            <ul>
+                                <li>Texto.
+                                <li>Imagen.
+                                <li>Compresión (sin y con pérdida).
+                            </ul>
+                    </ul>
+                <li>
+                    <a href="https://youtu.be/2JYOztw2uzs">video</a>
+                    - <a href="https://egrosclaude.github.io/IC/TextoYMultimedia.html">slides</a>
+            </ul>
+
+        <li>Práctica 7 (Martes 24):
+            <a href="./tps/TP-05.pdf">TP-05</a>
+
     </ul>
 
-<li>Práctica 12 (Martes 6, Viernes 9):
-   <a href="./tps/TP-08.pdf">TP-08</a>
+    <em>Mayo:</em>
 
-<p><strong style="color:red;">↑↑ USTED ESTÁ AQUÍ ↑↑</strong></p>
-
-<li>Clase 11 (Jueves 8, Viernes 9):
     <ul>
-    <li>Redes de computadoras:
-        <ul>
-        <li>Definición y clasificación.
-        <li>Direcciones de red, enrutamiento de paquetes.
-        <li>Nombres de dominio, direcciones de correo electrónico, URL.
-        </ul>
-    <li>Seguridad de nivel de Infraestructura en Sistemas Computacionales.
+
+        <li>Práctica 8 (Martes 2): Consulta.
+
+        <li>Clase 7 (Jueves 3, Viernes 4):
+            <ul>
+                <li>Consulta para el primer examen parcial.
+                    <ul>
+                        <li><a href="https://youtu.be/MmVXv1tAC1c">video</a>
+                    </ul>
+            </ul>
+
+        <li><em>Primer examen parcial</em>: Sábado 06/05.
+
+        <li>Práctica 9 (Martes 9): Consulta primer recuperatorio.
+
+        <li>Clase 8 (Jueves 11, Viernes 12):
+            <ul>
+                <li>Organización y Arquitectura de computadoras:
+                    <ul>
+                        <li>Organización de una computadora simple:
+                            <ul>
+                                <li>Componentes (procesador, memoria, dispositivos de entrada y
+                                    salida) e interconexión (buses) de la arquitectura von
+                                    Neumann.
+                                <li>Instrucciones y ejecución de instrucciones.
+                                <li>Caso de uso: Modelo Computacional Binario Elemental (MCBE).
+                            </ul>
+                    </ul>
+                <li>
+                    <a href="https://youtu.be/roh4goWJ6Uo">video</a>
+                    - <a href="./filminas/08-orgYarq.pdf">08-orgYarq.pdf</a>
+            </ul>
+
+        <li><em>Recuperatorio del primer examen parcial</em>: Sábado 13/05.
+
+        <li>Práctica 10 (Martes 16):
+            <a href="./tps/TP-06.pdf">TP-06</a>
+
+        <li>Clase 9 (Jueves 19, Viernes 20):
+            <ul>
+                <li>El software:
+                    <ul>
+                        <li>Lenguajes de bajo nivel (lenguaje ensamblador). Caso de uso: MCBE.
+                        <li>Lenguajes de alto nivel. Traductores: compiladores e intérpretes.
+                            Caso de uso: compilador gcc, intérprete navegador web.
+                        <li>Introducción a los Sistemas Operativos:
+                            <ul>
+                                <li>Definición y clasificación.
+                                <li>Núcleo (kernel), llamadas al sistema, administración de
+                                    procesos, administración de memoria, sistema de archivos,
+                                    protección.
+                            </ul>
+                    </ul>
+                <li>
+                    <a href="https://youtu.be/dhMKqs1gZGs">video</a>
+                    - slides:
+                    <a href="https://egrosclaude.github.io/IC/Software.html">1</a>,
+                    <a href="https://egrosclaude.github.io/IC/SistemasOperativos.html">2</a>
+            </ul>
+
+        <li>Práctica 11 (Martes 23):
+            <a href="./tps/TP-07.pdf">TP-07</a>
+
     </ul>
 
-<li>Práctica 13 (Martes 13, -): <em>TP LAB</em>
+    <em>Junio:</em>
 
-<li>Clase 13 (Jueves 15, Viernes 16):
     <ul>
-    <li>Consulta para el segundo examen parcial.
+        <li>Clase 10 (Jueves 1, Viernes 2):
+            <ul>
+                <li>El software:
+                <li>Introducción a los Sistemas Operativos:
+                    <ul>
+                        <li>Núcleo (kernel), llamadas al sistema, administración de
+                            procesos, administración de memoria, sistema de archivos,
+                            protección.
+                        <li>Caso de uso: introducción al sistema operativo GNU/Linux.
+                    </ul>
+                <li>
+                    <a href="https://youtu.be/D2JkCgDqTw8">video</a>
+                    - <a href="https://egrosclaude.github.io/IC/SistemasOperativos.html">slides</a>
+            </ul>
+
+        <li>Práctica 12 (Martes 6, Viernes 9):
+            <a href="./tps/TP-08.pdf">TP-08</a>
+
+            <p><strong style="color:red;">↑↑ USTED ESTÁ AQUÍ ↑↑</strong></p>
+
+        <li>Clase 11 (Jueves 8, Viernes 9):
+            <ul>
+                <li>Redes de computadoras:
+                    <ul>
+                        <li>Definición y clasificación.
+                        <li>Direcciones de red, enrutamiento de paquetes.
+                        <li>Nombres de dominio, direcciones de correo electrónico, URL.
+                    </ul>
+                <li>Seguridad de nivel de Infraestructura en Sistemas Computacionales.
+            </ul>
+
+        <li>Práctica 13 (Martes 13, -): <em>TP LAB</em>
+
+        <li>Clase 13 (Jueves 15, Viernes 16):
+            <ul>
+                <li>Consulta para el segundo examen parcial.
+            </ul>
+
+        <li>Práctica 14 (Martes 20, -):
+            <ul>
+                <li>Consulta para el segundo examen parcial.
+            </ul>
+
+        <li>Clase 14 (Jueves 22, -):
+            <ul>
+                <li>Sin actividad programada.
+            </ul>
+
+        <li><em>Segundo examen parcial</em>: Viernes 23/06.
+
+        <li>Práctica 15 (Martes 27, 30):
+            <ul>
+                <li>Consulta para el recuperatorio del segundo examen parcial.
+            </ul>
+
+        <li>Clase 15 (Jueves 29, -):
+            <ul>
+                <li>Sin actividad programada.
+            </ul>
+
+        <li><em>Recuperatorio del segundo examen parcial</em>: Viernes 30/06.
+
+        <li><strong>Fin de cuatrimestre</strong>
+
     </ul>
 
-<li>Práctica 14 (Martes 20, -):
-    <ul>
-    <li>Consulta para el segundo examen parcial.
-    </ul>
-
-<li>Clase 14 (Jueves 22, -):
-    <ul>
-    <li>Sin actividad programada.
-    </ul>
-
-<li><em>Segundo examen parcial</em>: Viernes 23/06.
-
-<li>Práctica 15 (Martes 27, 30):
-    <ul>
-    <li>Consulta para el recuperatorio del segundo examen parcial.
-    </ul>
-
-<li>Clase 15 (Jueves 29, -):
-    <ul>
-    <li>Sin actividad programada.
-    </ul>
-
-<li><em>Recuperatorio del segundo examen parcial</em>: Viernes 30/06.
-
-<li><strong>Fin de cuatrimestre</strong>
-
-</ul>
-
-</main>
+    </main>
 </body>
+
 </html>
