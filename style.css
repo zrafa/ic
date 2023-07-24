@@ -1,14 +1,17 @@
 body {
-    /* margin:auto; */
-    /* max-width:40em; */
-    /* font-size: 150%; */
     font-family: serif !important;
 }
 
+.centering {
+    width: 40em;
+    margin: auto;
+    font-size: 150%;
+}
+
 img {
-    /* width:100%; */
     height: auto;
-    max-width: 30em;
+    max-width: 95%;
+    min-width: 25%;
 }
 
 code,
@@ -19,7 +22,6 @@ pre {
     color: #ddddff;
     font-family: monospace;
     font-weight: bold;
-
 }
 
 pre {
@@ -42,7 +44,16 @@ img.code {
 }
 
 nav {
-    padding: 1em;
+    padding: 1em 0em;
+    font-size: 2em;
+}
+.navbar-toggler {
+    width: 7em;
+    height: 7em;
+}
+.navbar-toggler-icon {
+    width: 5em;
+    height: 5em;
 }
 
 /* nav{
