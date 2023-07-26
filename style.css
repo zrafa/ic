@@ -43,18 +43,10 @@ img.code {
     width: 100% !important;
 }
 
-nav {
-    padding: 1em 0em;
-    font-size: 2em;
-}
 .navbar {
     padding: 0 0 0 0;
-    font-size: 2em;
 }
 @media (max-width: 1280px) {
-    nav {
-        font-size: 4em;
-    }
     .navbar {
         font-size: 4em;
     }
