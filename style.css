@@ -47,6 +47,10 @@ nav {
     padding: 1em 0em;
     font-size: 2em;
 }
+.navbar {
+    padding: 0 0 0 0;
+    font-size: 2em;
+}
 .navbar-toggler {
     width: 7em;
     height: 7em;
@@ -55,38 +59,16 @@ nav {
     width: 5em;
     height: 5em;
 }
-
-/* nav{
-    background-color: #8080ff;
-    color: #ffffff;
-    padding: 0 0.25em 0 0.25em;
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 0px;
+.navbar-light {
+    background-color: #8080ff !important;
+    color: #ffffff !important;
 }
-nav>ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.nav-link {
+    color: #ffffff !important;
 }
-nav>ul>li>a{
-    padding: 0 0.5em 0 0.5em;
+a.nav-link {
+    padding: 0 0 0 0;
 }
-nav>ul>li>a:link{
-    color: #ffffff;
-}
-nav>ul>li>a:visited{
-    color: #ffffff;
-}
-nav>ul>li{
-    text-align: center;
-    display: inline;
-}
-nav>ol>li:hover{
-    background-color: #aaaaff;
-} */
 a:focus {
     background-color: #cccc44;
 }
