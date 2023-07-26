@@ -51,6 +51,14 @@ nav {
     padding: 0 0 0 0;
     font-size: 2em;
 }
+@media (max-width: 1280px) {
+    nav {
+        font-size: 4em;
+    }
+    .navbar {
+        font-size: 4em;
+    }
+}
 .navbar-toggler {
     width: 7em;
     height: 7em;
