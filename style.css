@@ -1,14 +1,17 @@
-body{
-    margin:auto;
-    max-width:40em;
+body {
+    margin: auto;
+    max-width: 40em;
     font-family: "Serif";
     font-size: 150%;
 }
-img{
-        width:100%;
-        max-width:40em;
+
+img {
+    width: 100%;
+    max-width: 40em;
 }
-code,pre{
+
+code,
+pre {
     background-color: #000000;
     border-radius: 0.25em;
     border-style: none;
@@ -16,28 +19,43 @@ code,pre{
     font-family: monospace;
     font-weight: bold;
 }
-pre{
+
+pre {
     border-color: #8080ff;
     border-radius: 1em;
     border-style: outset;
     border-width: 0.25em;
     padding: 0.5em;
 }
-nav{
+
+nav {
     background-color: #8080ff;
     color: #ffffff;
-    padding: 0 0.25em 0 0.25em; 
+    padding: 0 0.25em 0 0.25em;
     position: fixed;
     width: 100%;
     left: 0px;
     top: 0px;
 }
-nav>a:link{
+
+nav>a:link {
     color: #ffffff;
 }
-nav>a:visited{
+
+nav>a:visited {
     color: #ffffff;
 }
+
 a:focus {
     background-color: #cccc44;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #004085;
 }
