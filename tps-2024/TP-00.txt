@@ -1,0 +1,70 @@
+Trabajo Práctico N°0.
+Objetivo: Recordar propiedades matemáticas y cambios de conversión de unidades. Repasar los temas vistos en la clase teórica.
+
+Repaso de la ley de exponentes:
+- x^n * x^m = x^(n+m)
+- x^n / x^m = x^(n-m)
+- x^(-n) = 1 / x^n
+- (x^n)^m = x^(n*m)
+- x^0 = 1
+- √[m]{x^n} = x^(n/m)
+
+1)Resuelva los siguientes ejercicios con las Propiedades de potenciación.
+- 3^3 * 3^4 * 3
+- 5^7 / 5^3
+- (5^3)^4
+- (5 * 2 * 3)^4
+- (3^4)^4
+- (5^3)^4
+- (8^2)^3
+- (9^3)^2
+- 2^5 * 2^4 * 2
+- 2^7 / 2^6
+- (2^2)^4
+- (4 * 2 * 3)^4
+- (2^5)^4
+- (2^3)^4^0
+- (27^2)^5
+
+2)Resuelva los siguientes ejercicios combinados.
+ - (2/3)^2 * (2/3)^3
+ - (2/3)^-2 * (2/3)^3
+ - (2/3)^2 * (2/3)^-3
+ - (2/3)^-2 * (2/3)^-3
+ - (2/3)^-2 * (3/2)^-3
+ - (2/3)^2 / (2/3)^3
+ - (2/3)^-2 / (2/3)^3
+ - (2/3)^2 / (2/3)^-3
+ - (2/3)^-2 / (2/3)^-3
+ - (2/3)^-2 / (3/2)^-3
+ - ((2/3)^2)3
+ - (((2/3)^2)^3)^-3
+
+Para realizar los siguientes ejercicios es necesario repasar la tabla de prefijos internacional.
+Múltiplos:
+- Tera (T): 10^12
+- Giga (G): 10^9
+- Mega (M): 10^6
+- Kilo (k): 10^3
+
+Submúltiplos:
+- Mili (m): 10^-3
+- Micro (µ): 10^-6
+- Nano (n): 10^-9
+
+3) Exprese la distancia de 300 Megámetros (Mm) en:
+- Metros (m)
+- Kilómetros(km)
+- Milímetros (mm)
+- Micrómetros (µm)
+- Nanómetros (nm)
+
+4) En elefante africano de sabana adulto pesa aproximadamente 12274kg. Utilice exprese su peso en:
+- Megagramos (Mg)
+- Gramos (g)
+- Miligramos (mg)
+
+5) Exprese el tiempo de un año (considerando que un año tiene 365 dias) en:
+- Horas
+- Minutos
+- Nanosegundos
