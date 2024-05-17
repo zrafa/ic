@@ -59,3 +59,8 @@ a {
 a:hover {
     color: #004085;
 }
+
+h1 {
+    text-align:center;
+    text-decoration: underline #8080ff double;
+}
